@@ -1,8 +1,8 @@
 # FDR High School - AP CS A
 
-## Last Name: 
-## First Name: 
-## GitHub Username:
+## Last Name: Luna Ramos
+## First Name: Bryant
+## GitHub Username: Blua2
 
 
 ### General Workflow: 
