@@ -2,7 +2,7 @@ import java.util.*;
 public class my_first_class_SRC {
     public static void main(String args[]){
         Scanner S = new Scanner(System.in);
-        PassWord_gen pass = new PassWord_gen();
+        PassWord_gen pass = new PassWord_gen();//Instance of class 
 
         System.out.println("Please enter your full name");
         PassWord_gen.setName(S.nextLine());
