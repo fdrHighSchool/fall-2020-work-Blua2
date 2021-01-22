@@ -31,7 +31,6 @@ public class PassWord_gen{
         for(int Char = 0; Char < this.Length; Char++){
             Collections.shuffle(Chars);//Shuffle will make the element selection constantly random every iteration
             String iterate = Chars.get(0);//iterate will represent the elements of character Array
-
             password = (password + (iterate.charAt(R.nextInt(iterate.length()))));//Retrieve a single random character from the list of characters.
         }//end for loop
         return password;
