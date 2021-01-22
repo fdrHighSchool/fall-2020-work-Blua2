@@ -16,9 +16,9 @@ public class FRQ_2007 {
             if(D.get(i) == 0  || num % D.get(i) != 0){
                 return false;
             } 
-        }
+        }//End for loop
         return true;
-   }
+   }//End method isSelfDivisor
 
    public static int[] firstNumSelfDivisor(int start, int len){
        int[] divnum =  new int[len]; // divnum is the array that will store all self divisors.
@@ -29,9 +29,9 @@ public class FRQ_2007 {
             if(isSelfDivisor(it)){
                 divnum[current] = it;
                 current++;
-            }
+            }//End conditional
             it++;
-        }
+        }//End while loop
        return divnum;
    }// end method firstNumSelfDivisor
 
