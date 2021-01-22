@@ -11,11 +11,11 @@ public class FRQ_2009{
   public static int[] getCubeTosses(int[] numcube, int toss){
     int[] numtoss = new int[toss];
 
-    for (int i = 0; i < toss; i++){
-      numtoss[i] = cube[ran.nextInt(6)];
-    }
+    for (int i = 0; i < toss; i++){//The Array numtoss will store a random element from Array cube for every toss(iteration).
+      numtoss[i] = cube[ran.nextInt(cube.length)];
+    }//End for loop
     return numtoss;
-  }
+  }//End method getCubeTosses
 
   public static int getLongestRun(int[] cube){
     int current = 0;
@@ -28,12 +28,12 @@ public class FRQ_2009{
         if(current > max){
           max = current;
           start = i - current + 1;
-        }
-      }
+        }//End second conditional
+      }//End first conditional
       else{
         current = 0;
       }
-    }
+    }//End for loop
     return start; 
-   }  
-}
+   }//End method getLongestRun
+}//End class
